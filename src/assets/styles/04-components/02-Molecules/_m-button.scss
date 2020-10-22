@@ -1,14 +1,113 @@
 .m-button{
-    @include flex-center();
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
     border-radius: 15px;
     border: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: $white;
 }
 
-.--primary{
-
+.m-button--primary{
+    background: $primone;
+    &.disabled{
+        opacity: 0.3;
+        border: 0.5px solid $primone;
+    }
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+        opacity: 0.6;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+    }
+    &:focus{
+        border: 0.5px solid $primone;
+    }
+}
+.m-button--large{
+    width: 132px;
+    height: 43px;
 }
 
-.--large{
-
+.m-button--medium{
+    width: 112px;
+    height: 43px;
 }
+
+.m-button--small{
+    width: 92px;
+    height: 43px;
+}
+
+.m-button--secondary{
+    background: $secthree    ;
+    &.disabled{
+        opacity: 0.3;
+        border: 0.5px solid $secthree;
+    }
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+        opacity: 0.6;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+    }
+    &:focus{
+        border: 0.5px solid $secthree;
+    }
+}
+
+.m-button--secondary{
+    background: $secthree    ;
+    &.disabled{
+        opacity: 0.3;
+        border: 0.5px solid $secthree;
+    }
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+        opacity: 0.6;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+    }
+    &:focus{
+        border: 0.5px solid $secthree;
+    }
+}
+
+.m-button--destructive{
+
+    background: $destructivebutton    ;
+    &.disabled{
+        opacity: 0.3;
+        border: 0.5px solid $destructivebutton;
+    }
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+        opacity: 0.6;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+    }
+    &:focus{
+        border: 0.5px solid $destructivebutton;
+    }
+}
+
+.m-button--sucess{
+    background: $sucess;
+    &.disabled{
+        opacity: 0.3;
+        border: 0.5px solid $sucess;
+    }
+    &:hover{
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+        opacity: 0.6;
+        border: 0.5px solid rgba(0, 0, 0, 0.5);
+    }
+    &:focus{
+        border: 0.5px solid $sucess;
+    }
+}
+
