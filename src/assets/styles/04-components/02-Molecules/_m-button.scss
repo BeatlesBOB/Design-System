@@ -1,8 +1,6 @@
 .m-button{
     border-radius: 15px;
     border: none;
-    padding-top: 14px;
-    padding-bottom: 14px;
     color: $white;
 }
 
@@ -75,7 +73,6 @@
 }
 
 .m-button--destructive{
-
     background: $destructivebutton    ;
     &.disabled{
         opacity: 0.3;
