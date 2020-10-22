@@ -1,6 +1,6 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
-    jQuery("#formStep").validate({
+    $("#formStep").validate({
         rules: {
            "montextarea":{
               "required": true,
@@ -24,6 +24,9 @@ jQuery(document).ready(function() {
               minlength: "Your password must be at least 5 characters long"
             },
             email: "Please enter a valid email address"
+        },
+        invalidHandler: function(form){  
+            console.log("AAAA")
         }
     })
     
