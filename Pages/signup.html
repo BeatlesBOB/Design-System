@@ -12,28 +12,33 @@
       <p>Already got an account ? <a href="./sigin.html">Sign In</a></p>
     </div>
     <form>
-      <div>
-        <label>Lastname</label>
-        <input type="text" class="" >
+      <div style="display: flex;"> <!--à modifier -->
+        <div>
+          <label class="pb-8">Lastname</label>
+          <input type="text" class="" >
+        </div>
+        <div class="ml-24">
+          <label class="pb-8">Firstname</label>
+          <input type="text" class="" >
+        </div>
       </div>
-      <div>
-        <label>Firstname</label>
-        <input type="text" class="" >
-      </div>
-      <div>
+      <div class="pt-16">
         <label>Email address</label>
         <input type="email" class="" >
       </div>
-      <div class="">
-        <label>Password</label>
+      <div class="pt-16">
+        <label class="pb-8">Password</label>
         <input type="password" class="" >
       </div>
-      <div class="">
-        <label>Confirm password</label>
+      <div class="pt-16 pb-40">
+        <label class="pb-8">Confirm password</label>
         <input type="password" class="" >
       </div>
       <button type="submit" class="m-button px-16 py-8 my-32">Submit</button>
     </form>
-
+    <div class="pb-64">
+      <h1>Or</h1> <p class="pt-8">sign in with</p>
+    </div>
+    <div class="pb-154"><h2>GOOGLE & FACEBOOK</h2></div>
   </body>
 </html>
