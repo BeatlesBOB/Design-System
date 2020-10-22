@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+.z-index-4 {
+  z-index: 4;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+
+.z-index-10 {
+  z-index: 10;
+}
+
+.z-index-100 {
+  z-index: 100;
+}
+
+body, html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.m-button {
+  background: #DF6588;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
