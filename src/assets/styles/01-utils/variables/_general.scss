@@ -1,1 +1,175 @@
-$spacing : 4px;
+// Spacing
+$spacer : 4px;
+/*
+    The spacer is the default variable of spacing between two elements
+
+    m - means margin
+    p - means padding
+    
+    t - means top for margin-top or padding-top
+    b - means bottom for margin-bottom or padding-bottom
+    l - means left for margin-left or padding-left
+    r - means right for margin-right or padding-right
+
+    y - means both top and bottom for margin and padding
+    x - means both left and right for margin and padding
+    
+*/
+
+
+// Padding-top
+
+.pt-0{
+    padding-top: ($spacer*0);
+}
+.pt-4{
+    padding-top: $spacer;
+}
+.pt-8{
+    padding-top: ($spacer*2);
+}
+.pt-12{
+    padding-top: ($spacer*3);
+}
+.pt-16{
+    padding-top: ($spacer*4);
+}
+.pt-20{
+    padding-top: ($spacer*5);
+}
+.pt-96{
+    padding-top: ($spacer*24);
+}
+// Padding bottom
+
+.pb-0{
+    padding-bottom: ($spacer*0);
+}
+.pb-4{
+    padding-bottom: $spacer;
+}
+.pb-8{
+    padding-bottom: ($spacer*2);
+}
+.pb-12{
+    padding-bottom: ($spacer*3);
+}
+.pb-16{
+    padding-bottom: ($spacer*4);
+}
+.pb-20{
+    padding-bottom: ($spacer*5);
+}
+.pb-96{
+    padding-bottom: ($spacer*24);
+}
+// Padding left
+
+.pl-0{
+    padding-left: ($spacer*0);
+}
+.pl-4{
+    padding-left: $spacer;
+}
+.pl-8{
+    padding-left: ($spacer*2);
+}
+.pl-12{
+    padding-left: ($spacer*3);
+}
+.pl-16{
+    padding-left: ($spacer*4);
+}
+.pl-20{
+    padding-left: ($spacer*5);
+}
+.pl-96{
+    padding-left: ($spacer*24);
+}
+
+// Padding right
+
+.pr-0{
+    padding-right: ($spacer*0);
+}
+.pr-4{
+    padding-right: $spacer;
+}
+.pr-8{
+    padding-right: ($spacer*2);
+}
+.pr-12{
+    padding-right: ($spacer*3);
+}
+.pr-16{
+    padding-right: ($spacer*4);
+}
+.pr-20{
+    padding-right: ($spacer*5);
+}
+.pr-96{
+    padding-right: ($spacer*24);
+
+}
+
+// Padding x
+
+.px-0{
+    padding-right: ($spacer*0);
+    padding-left: ($spacer*0);
+}
+.px-4{
+    padding-right: $spacer;
+    padding-left: $spacer;
+}
+.px-8{
+    padding-right: ($spacer*2);
+    padding-left: ($spacer*2);
+}
+.px-12{
+    padding-right: ($spacer*3);
+    padding-left: ($spacer*3);
+}
+.px-16{
+    padding-right: ($spacer*4);
+    padding-left: ($spacer*4);
+}
+.px-20{
+    padding-right: ($spacer*5);
+    padding-left: ($spacer*5);
+}
+.px-96{
+    padding-right: ($spacer*24);
+    padding-left: ($spacer*24);
+}
+
+// Padding y
+
+.py-0{
+    padding-top: ($spacer*0);
+    padding-bottom: ($spacer*0);
+}
+.py-4{
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+}
+.py-8{
+    padding-top: ($spacer*2);
+    padding-bottom: ($spacer*2);
+}
+.py-12{
+    padding-top: ($spacer*3);
+    padding-bottom: ($spacer*3);
+}
+.py-16{
+    padding-top: ($spacer*4);
+    padding-bottom: ($spacer*4);
+}
+.py-20{
+    padding-top: ($spacer*5);
+    padding-bottom: ($spacer*5);
+}
+.py-96{
+    padding-top: ($spacer*24);
+    padding-bottom: ($spacer*24);
+}

@@ -1,3 +1,200 @@
+/*
+    The spacer is the default variable of spacing between two elements
+
+    m - means margin
+    p - means padding
+    
+    t - means top for margin-top or padding-top
+    b - means bottom for margin-bottom or padding-bottom
+    l - means left for margin-left or padding-left
+    r - means right for margin-right or padding-right
+
+    y - means both top and bottom for margin and padding
+    x - means both left and right for margin and padding
+    
+*/
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-96 {
+  padding-top: 96px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-16 {
+  padding-bottom: 16px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-96 {
+  padding-bottom: 96px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.pl-4 {
+  padding-left: 4px;
+}
+
+.pl-8 {
+  padding-left: 8px;
+}
+
+.pl-12 {
+  padding-left: 12px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-96 {
+  padding-left: 96px;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.pr-4 {
+  padding-right: 4px;
+}
+
+.pr-8 {
+  padding-right: 8px;
+}
+
+.pr-12 {
+  padding-right: 12px;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pr-96 {
+  padding-right: 96px;
+}
+
+.px-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.px-4 {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.px-8 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.px-12 {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.px-16 {
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.px-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.px-96 {
+  padding-right: 96px;
+  padding-left: 96px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .z-index-1 {
   z-index: 1;
 }
@@ -36,7 +233,7 @@ body, html {
   background: #DF6588;
   -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
-  border-radius: 6px;
+  border-radius: 15px;
   border: none;
 }
 /*# sourceMappingURL=style.css.map */
