@@ -46,35 +46,35 @@
 }
 
 .p-8 {
-  padding: 16px;
+  padding: 8px;
 }
 
 .p-16 {
-  padding: 32px;
+  padding: 16px;
 }
 
 .p-24 {
-  padding: 48px;
+  padding: 24px;
 }
 
 .p-32 {
-  padding: 64px;
+  padding: 32px;
 }
 
 .p-40 {
-  padding: 80px;
+  padding: 40px;
 }
 
 .p-64 {
-  padding: 1024px;
+  padding: 512px;
 }
 
 .p-96 {
-  padding: 192px;
+  padding: 96px;
 }
 
 .p-154 {
-  padding: 308px;
+  padding: 154px;
 }
 
 .pt-0 {
@@ -82,35 +82,35 @@
 }
 
 .pt-8 {
-  padding-top: 16px;
+  padding-top: 8px;
 }
 
 .pt-16 {
-  padding-top: 32px;
+  padding-top: 16px;
 }
 
 .pt-24 {
-  padding-top: 48px;
+  padding-top: 24px;
 }
 
 .pt-32 {
-  padding-top: 64px;
+  padding-top: 32px;
 }
 
 .pt-40 {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 .pt-64 {
-  padding-top: 128px;
+  padding-top: 64px;
 }
 
 .pt-96 {
-  padding-top: 192px;
+  padding-top: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.pt-154 {
+  padding-top: 154px;
 }
 
 .pb-0 {
@@ -118,35 +118,35 @@
 }
 
 .pb-8 {
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 
 .pb-16 {
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 
 .pb-24 {
-  padding-bottom: 48px;
+  padding-bottom: 24px;
 }
 
 .pb-32 {
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 }
 
 .pb-40 {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .pb-64 {
-  padding-bottom: 128px;
+  padding-bottom: 64px;
 }
 
 .pb-96 {
-  padding-bottom: 192px;
+  padding-bottom: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.pb-154 {
+  padding-bottom: 154px;
 }
 
 .pl-0 {
@@ -154,35 +154,35 @@
 }
 
 .pl-8 {
-  padding-left: 16px;
+  padding-left: 8px;
 }
 
 .pl-16 {
-  padding-left: 32px;
+  padding-left: 16px;
 }
 
 .pl-24 {
-  padding-left: 48px;
+  padding-left: 24px;
 }
 
 .pl-32 {
-  padding-left: 64px;
+  padding-left: 32px;
 }
 
 .pl-40 {
-  padding-left: 80px;
+  padding-left: 40px;
 }
 
 .pl-64 {
-  padding-left: 128px;
+  padding-left: 64px;
 }
 
 .pl-96 {
-  padding-left: 192px;
+  padding-left: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.pl-154 {
+  padding-left: 154px;
 }
 
 .pr-0 {
@@ -190,35 +190,35 @@
 }
 
 .pr-8 {
-  padding-right: 16px;
+  padding-right: 8px;
 }
 
 .pr-16 {
-  padding-right: 32px;
+  padding-right: 16px;
 }
 
 .pr-24 {
-  padding-right: 48px;
+  padding-right: 24px;
 }
 
 .pr-32 {
-  padding-right: 64px;
+  padding-right: 32px;
 }
 
 .pr-40 {
-  padding-right: 80px;
+  padding-right: 40px;
 }
 
 .pr-64 {
-  padding-right: 128px;
+  padding-right: 64px;
 }
 
 .pr-96 {
-  padding-right: 192px;
+  padding-right: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.pr-154 {
+  padding-right: 154px;
 }
 
 .px-0 {
@@ -227,42 +227,43 @@
 }
 
 .px-8 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.px-16 {
   padding-right: 16px;
   padding-left: 16px;
 }
 
-.px-16 {
+.px-24 {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.px-32 {
   padding-right: 32px;
   padding-left: 32px;
 }
 
-.px-24 {
-  padding-right: 48px;
-  padding-left: 48px;
+.px-40 {
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
-.px-32 {
+.px-64 {
   padding-right: 64px;
   padding-left: 64px;
 }
 
-.px-40 {
-  padding-right: 80px;
-  padding-left: 80px;
-}
-
-.px-64 {
-  padding-right: 128px;
-  padding-left: 128px;
-}
-
 .px-96 {
-  padding-right: 192px;
-  padding-left: 192px;
+  padding-right: 96px;
+  padding-left: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.px-154 {
+  padding-right: 154px;
+  padding-left: 154px;
 }
 
 .py-0 {
@@ -271,42 +272,43 @@
 }
 
 .py-8 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py-16 {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.py-16 {
+.py-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.py-32 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.py-24 {
-  padding-top: 48px;
-  padding-bottom: 48px;
+.py-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.py-32 {
+.py-64 {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 
-.py-40 {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.py-64 {
-  padding-top: 128px;
-  padding-bottom: 128px;
-}
-
 .py-96 {
-  padding-top: 192px;
-  padding-bottom: 192px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
-.p-154 {
-  padding: 308px;
+.py-154 {
+  padding-top: 154px;
+  padding-bottom: 154px;
 }
 
 .m-0 {
@@ -314,35 +316,35 @@
 }
 
 .m-8 {
-  margin: 16px;
+  margin: 8px;
 }
 
 .m-16 {
-  margin: 32px;
+  margin: 16px;
 }
 
 .m-24 {
-  margin: 48px;
+  margin: 24px;
 }
 
 .m-32 {
-  margin: 64px;
+  margin: 32px;
 }
 
 .m-40 {
-  margin: 80px;
+  margin: 40px;
 }
 
 .m-64 {
-  margin: 128px;
+  margin: 64px;
 }
 
 .m-96 {
-  margin: 192px;
+  margin: 96px;
 }
 
 .m-154 {
-  margin: 308px;
+  margin: 154px;
 }
 
 .mt-0 {
@@ -350,35 +352,35 @@
 }
 
 .mt-8 {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .mt-16 {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .mt-24 {
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .mt-32 {
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .mt-40 {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .mt-64 {
-  margin-top: 128px;
+  margin-top: 64px;
 }
 
 .mt-96 {
-  margin-top: 192px;
+  margin-top: 96px;
 }
 
 .mt-154 {
-  margin-top: 308px;
+  margin-top: 154px;
 }
 
 .mb-0 {
@@ -386,35 +388,35 @@
 }
 
 .mb-8 {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .mb-16 {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .mb-24 {
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 
 .mb-32 {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 
 .mb-40 {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .mb-64 {
-  margin-bottom: 128px;
+  margin-bottom: 64px;
 }
 
 .mb-96 {
-  margin-bottom: 192px;
+  margin-bottom: 96px;
 }
 
 .mb-154 {
-  margin-bottom: 308px;
+  margin-bottom: 154px;
 }
 
 .ml-0 {
@@ -422,35 +424,35 @@
 }
 
 .ml-8 {
-  margin-left: 16px;
+  margin-left: 8px;
 }
 
 .ml-16 {
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 .ml-24 {
-  margin-left: 48px;
+  margin-left: 24px;
 }
 
 .ml-32 {
-  margin-left: 64px;
+  margin-left: 32px;
 }
 
 .ml-40 {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 .ml-64 {
-  margin-left: 128px;
+  margin-left: 64px;
 }
 
 .ml-96 {
-  margin-left: 192px;
+  margin-left: 96px;
 }
 
 .ml-154 {
-  margin-left: 308px;
+  margin-left: 154px;
 }
 
 .mr-0 {
@@ -458,35 +460,35 @@
 }
 
 .mr-8 {
-  margin-right: 16px;
+  margin-right: 8px;
 }
 
 .mr-16 {
-  margin-right: 32px;
+  margin-right: 16px;
 }
 
 .mr-24 {
-  margin-right: 48px;
+  margin-right: 24px;
 }
 
 .mr-32 {
-  margin-right: 64px;
+  margin-right: 32px;
 }
 
 .mr-40 {
-  margin-right: 80px;
+  margin-right: 40px;
 }
 
 .mr-64 {
-  margin-right: 128px;
+  margin-right: 64px;
 }
 
 .mr-96 {
-  margin-right: 192px;
+  margin-right: 96px;
 }
 
 .mr-154 {
-  margin-right: 308px;
+  margin-right: 154px;
 }
 
 .mx-0 {
@@ -495,43 +497,43 @@
 }
 
 .mx-8 {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.mx-16 {
   margin-right: 16px;
   margin-left: 16px;
 }
 
-.mx-16 {
+.mx-24 {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.mx-32 {
   margin-right: 32px;
   margin-left: 32px;
 }
 
-.mx-24 {
-  margin-right: 48px;
-  margin-left: 48px;
+.mx-40 {
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
-.mx-32 {
+.mx-64 {
   margin-right: 64px;
   margin-left: 64px;
 }
 
-.mx-40 {
-  margin-right: 80px;
-  margin-left: 80px;
-}
-
-.mx-64 {
-  margin-right: 128px;
-  margin-left: 128px;
-}
-
 .mx-96 {
-  margin-right: 192px;
-  margin-left: 192px;
+  margin-right: 96px;
+  margin-left: 96px;
 }
 
 .mx-154 {
-  margin-right: 308px;
-  margin-left: 308px;
+  margin-right: 154px;
+  margin-left: 154px;
 }
 
 .my-0 {
@@ -540,43 +542,43 @@
 }
 
 .my-8 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.my-16 {
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.my-16 {
+.my-24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.my-32 {
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.my-24 {
-  margin-top: 48px;
-  margin-bottom: 48px;
+.my-40 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.my-32 {
+.my-64 {
   margin-top: 64px;
   margin-bottom: 64px;
 }
 
-.my-40 {
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.my-64 {
-  margin-top: 128px;
-  margin-bottom: 128px;
-}
-
 .my-96 {
-  margin-top: 192px;
-  margin-bottom: 192px;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 
 .my-154 {
-  margin-top: 308px;
-  margin-bottom: 308px;
+  margin-top: 154px;
+  margin-bottom: 154px;
 }
 
 body, html {

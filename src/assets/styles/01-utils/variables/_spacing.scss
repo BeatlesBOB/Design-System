@@ -1,5 +1,5 @@
 // Spacing
-$spacer : 16px;
+$spacer : 8px;
 /*
     The spacer is the default variable of spacing between two elements
 
@@ -72,8 +72,8 @@ $spacer : 16px;
 .pt-96{
     padding-top: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.pt-154{
+    padding-top: ($spacer*19.25);
 }
 
 // Padding bottom
@@ -102,8 +102,8 @@ $spacer : 16px;
 .pb-96{
     padding-bottom: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.pb-154{
+    padding-bottom: ($spacer*19.25);
 }
 
 // Padding left
@@ -132,8 +132,8 @@ $spacer : 16px;
 .pl-96{
     padding-left: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.pl-154{
+    padding-left: ($spacer*19.25);
 }
 
 // Padding right
@@ -162,8 +162,8 @@ $spacer : 16px;
 .pr-96{
     padding-right: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.pr-154{
+    padding-right: ($spacer*19.25);
 }
 
 // Padding x
@@ -200,8 +200,9 @@ $spacer : 16px;
     padding-right: ($spacer*12);
     padding-left: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.px-154{
+    padding-right: ($spacer*19.25);
+    padding-left: ($spacer*19.25);
 }
 
 // Padding y
@@ -238,8 +239,9 @@ $spacer : 16px;
     padding-top: ($spacer*12);
     padding-bottom: ($spacer*12);
 }
-.p-154{
-    padding: ($spacer*19.25);
+.py-154{
+    padding-top: ($spacer*19.25);
+    padding-bottom: ($spacer*19.25);
 }
 
 // Margin
