@@ -587,24 +587,57 @@ body, html {
   padding: 0;
 }
 
-@font-face {
-  font-family: Geomanist;
-  font-weight: 900;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-Black-Italic.otf");
+.text-7x {
+  font-size: 5.25rem;
+}
+
+.text-6x {
+  font-size: 4.5rem;
+}
+
+.text-5x {
+  font-size: 3.75rem;
+}
+
+.text-4x {
+  font-size: 3rem;
+}
+
+.text-3x {
+  font-size: 2.25rem;
+}
+
+.text-24p {
+  font-size: 2.25rem;
+}
+
+.text-18p {
+  font-size: 1.875rem;
+}
+
+.text-12p {
+  font-size: 1.5rem;
+}
+
+.text-4p {
+  font-size: 1.125rem;
+}
+
+.text-0p {
+  font-size: 0.8125rem;
 }
 
 @font-face {
   font-family: Geomanist;
-  font-weight: 900;
+  font-weight: 800;
   src: url("../../fonts/Geomanist-Black.otf");
 }
 
 @font-face {
   font-family: Geomanist;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
-  src: url("../../fonts/Geomanist-Bold-Italic.otf");
+  src: url("../../fonts/Geomanist-Black-Italic.otf");
 }
 
 @font-face {
@@ -615,22 +648,8 @@ body, html {
 
 @font-face {
   font-family: Geomanist;
-  font-weight: 100;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-ExtraLight-Italic.otf");
-}
-
-@font-face {
-  font-family: Geomanist;
-  font-weight: 100;
-  src: url("../../fonts/Geomanist-ExtraLight.otf");
-}
-
-@font-face {
-  font-family: Geomanist;
-  font-weight: 200;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-Light-Italic.otf");
+  font-weight: 700;
+  src: url("../../fonts/Geomanist-Bold-Italic.otf");
 }
 
 @font-face {
@@ -641,9 +660,8 @@ body, html {
 
 @font-face {
   font-family: Geomanist;
-  font-weight: 300;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-Medium-Italic.otf");
+  font-weight: 200;
+  src: url("../../fonts/Geomanist-Light-Italic.otf");
 }
 
 @font-face {
@@ -654,9 +672,8 @@ body, html {
 
 @font-face {
   font-family: Geomanist;
-  font-weight: 400;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-Regular-Italic.otf");
+  font-weight: 300;
+  src: url("../../fonts/Geomanist-Medium-Italic.otf");
 }
 
 @font-face {
@@ -667,20 +684,74 @@ body, html {
 
 @font-face {
   font-family: Geomanist;
-  font-weight: lighter;
-  font-style: italic;
-  src: url("../../fonts/Geomanist-Thin-Italic.otf");
+  font-weight: 400;
+  src: url("../../fonts/Geomanist-Regular-Italic.otf");
 }
 
 @font-face {
   font-family: Geomanist;
-  font-weight: lighter;
-  src: url("../../fonts/Geomanist-Thin.otf");
+  font-weight: 900;
+  src: url("../../fonts/Geomanist-Ultra.otf");
 }
 
-.geo-black-italic {
-  font-family: Delicious, sans-serif;
+@font-face {
+  font-family: Geomanist;
   font-weight: 900;
+  src: url("../../fonts/Geomanist-Ultra-Italic.otf");
+}
+
+.text--regular {
+  font-family: Geomanist, sans-serif;
+  font-weight: 400;
+}
+
+.text--regular--italic {
+  font-family: Geomanist, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text--black {
+  font-family: Geomanist, sans-serif;
+  font-weight: 800;
+}
+
+.text--black--italic {
+  font-family: Geomanist, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.text--bold {
+  font-family: Geomanist, sans-serif;
+  font-weight: 700;
+}
+
+.text--bold--italic {
+  font-family: Geomanist, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text--light {
+  font-family: Geomanist, sans-serif;
+  font-weight: 200;
+}
+
+.text--light--italic {
+  font-family: Geomanist, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.text--medium {
+  font-family: Geomanist, sans-serif;
+  font-weight: 300;
+}
+
+.text--medium--italic {
+  font-family: Geomanist, sans-serif;
+  font-weight: 300;
   font-style: italic;
 }
 

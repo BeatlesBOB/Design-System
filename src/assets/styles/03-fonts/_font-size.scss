@@ -1,0 +1,38 @@
+$size : 0.75rem;
+
+.text-7x{
+    font-size: $size*7
+}
+.text-6x{
+    font-size: $size*6
+}
+.text-5x{
+    font-size: $size*5
+}
+.text-4x{
+    font-size: $size*4
+}
+
+.text-3x{
+    font-size: $size*3
+}
+
+.text-24p{
+    font-size: $size+1.5rem;
+}
+
+.text-18p{
+    font-size: $size+1.125rem
+}
+
+.text-12p{
+    font-size: $size+0.75rem
+}
+
+.text-4p{
+    font-size: $size+0.375rem
+}
+
+.text-0p{
+    font-size: $size+0.0625rem
+}
