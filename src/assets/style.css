@@ -587,19 +587,236 @@ body, html {
   padding: 0;
 }
 
+@font-face {
+  font-family: Geomanist;
+  font-weight: 900;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Black-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 900;
+  src: url("../../fonts/Geomanist-Black.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 700;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Bold-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 700;
+  src: url("../../fonts/Geomanist-Bold.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 100;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-ExtraLight-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 100;
+  src: url("../../fonts/Geomanist-ExtraLight.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 200;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Light-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 200;
+  src: url("../../fonts/Geomanist-Light.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 300;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Medium-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 300;
+  src: url("../../fonts/Geomanist-Medium.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 400;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Regular-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: 400;
+  src: url("../../fonts/Geomanist-Regular.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../../fonts/Geomanist-Thin-Italic.otf");
+}
+
+@font-face {
+  font-family: Geomanist;
+  font-weight: lighter;
+  src: url("../../fonts/Geomanist-Thin.otf");
+}
+
+.geo-black-italic {
+  font-family: Delicious, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .m-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.16);
   border-radius: 15px;
   border: none;
+  color: #FFFFFF;
+}
+
+.m-button--primary {
+  background: #7336FE;
+}
+
+.m-button--primary.disabled {
+  opacity: 0.3;
+  border: 0.5px solid #7336FE;
+}
+
+.m-button--primary:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m-button--primary:active {
+  opacity: 0.6;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.m-button--primary:focus {
+  border: 0.5px solid #7336FE;
+}
+
+.m-button--large {
+  width: 132px;
+  height: 43px;
+}
+
+.m-button--medium {
+  width: 112px;
+  height: 43px;
+}
+
+.m-button--small {
+  width: 92px;
+  height: 43px;
+}
+
+.m-button--secondary {
+  background: #FE86AA;
+}
+
+.m-button--secondary.disabled {
+  opacity: 0.3;
+  border: 0.5px solid #FE86AA;
+}
+
+.m-button--secondary:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m-button--secondary:active {
+  opacity: 0.6;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.m-button--secondary:focus {
+  border: 0.5px solid #FE86AA;
+}
+
+.m-button--secondary {
+  background: #FE86AA;
+}
+
+.m-button--secondary.disabled {
+  opacity: 0.3;
+  border: 0.5px solid #FE86AA;
+}
+
+.m-button--secondary:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m-button--secondary:active {
+  opacity: 0.6;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.m-button--secondary:focus {
+  border: 0.5px solid #FE86AA;
+}
+
+.m-button--destructive {
+  background: #FF2362;
+}
+
+.m-button--destructive.disabled {
+  opacity: 0.3;
+  border: 0.5px solid #FF2362;
+}
+
+.m-button--destructive:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m-button--destructive:active {
+  opacity: 0.6;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.m-button--destructive:focus {
+  border: 0.5px solid #FF2362;
+}
+
+.m-button--sucess {
+  background: #5CDB9E;
+}
+
+.m-button--sucess.disabled {
+  opacity: 0.3;
+  border: 0.5px solid #5CDB9E;
+}
+
+.m-button--sucess:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.m-button--sucess:active {
+  opacity: 0.6;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.m-button--sucess:focus {
+  border: 0.5px solid #5CDB9E;
 }
 /*# sourceMappingURL=style.css.map */
