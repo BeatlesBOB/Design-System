@@ -19,6 +19,7 @@
 .m-button span{
     position: relative;
     z-index: 3;
+    pointer-events: none;
 }
 
 .m-button--small{
@@ -37,7 +38,6 @@
 .m-button--primary{
     background-color: #ccc;
     background-image: $gradientprimary;
-    transition: 10s ease-in;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -58,12 +58,12 @@
         opacity: 1;
         color: white;
     }
+    &:focus{
+        box-shadow: $box-shadow;
+    }
     &:active{
         background: $gradientprimaryhover;
         border: 3px solid rgba(0, 0, 0, 0.1);
-        box-shadow: $box-shadow;
-    }
-    &:focus{
         box-shadow: $box-shadow;
     }
     &.disabled{
@@ -71,9 +71,6 @@
         background: $gradientprimarydisabled;
     }
 }
-
-
-
 
 .m-button--secondary{
     position: relative;
@@ -101,7 +98,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: $gradientprimaryhover;
+        background: $secondarybackcolor;
         transition: opacity 0.5s ease-out;
         opacity: 0;
         border-radius: 100px;
@@ -110,25 +107,62 @@
     &:hover::after{
         opacity: 1;
     }
-    &:hover span{
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: white;
+    &:focus{
+        box-shadow: $box-shadow;
+    }
+    &:focus::after{
+        opacity: 1;
     }
     &:active{
-        
+        box-shadow: $box-shadow;
     }
-    &:focus{
-      
+    &:active::after{
+       opacity: 1;
     }
-    &:disabled{
-
-    }
+    &:active::before {
+        content: '';
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        z-index: -1;
+        margin: -3px;
+        border-radius: inherit;
+        background: $gradientprimaryhover;
+      }
+      &.disabled::before {
+        content: '';
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        z-index: -1;
+        margin: -3px;
+        border-radius: inherit;
+        background: $gradientprimarydisabled;
+      }
+      &.disabled::after{
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: $secondarybackcolor;
+          transition: opacity 0.5s ease-out;
+          opacity: 0;
+          border-radius: 100px;
+          z-index: 2;
+      }
+      &.disabled span{
+            background: $gradientprimaryfontdisabled;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+      }
+      &.disabled{
+        cursor: not-allowed;
+      }
 }
 
 .m-button--destructive{
     background-color: #ccc;
     background-image: $gradientdestructive;
-    transition: 10s ease-in;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -149,23 +183,23 @@
         opacity: 1;
         color: white;
     }
+    &:focus{
+        box-shadow: $box-shadow;
+    }
     &:active{
         background: $gradientdestructivehover;
+        border: 3px solid rgba(0, 0, 0, 0.1);
         box-shadow: $box-shadow;
     }
-    &:focus{
-        background: $gradientdestructivehover;
-        box-shadow: $box-shadow;
-    }
-    &:disabled{
-
+    &.disabled{
+        cursor: not-allowed;
+        background: $gradientdestructivedisabled;
     }
 }
 
 .m-button--sucess{
     background-color: #ccc;
     background-image: $gradientsucess;
-    transition: 10s ease-in;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -186,15 +220,16 @@
         opacity: 1;
         color: white;
     }
+    &:focus{
+        box-shadow: $box-shadow;
+    }
     &:active{
         background: $gradientsucesshover;
+        border: 3px solid rgba(0, 0, 0, 0.1);
         box-shadow: $box-shadow;
     }
-    &:focus{
-        background: $gradientsucesshover;
-        box-shadow: $box-shadow;
-    }
-    &:disabled{
-
+    &.disabled{
+        cursor: not-allowed;
+        background: $gradientsucessdisabled;
     }
 }
