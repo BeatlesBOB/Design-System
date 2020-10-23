@@ -759,6 +759,20 @@ body, html {
   border-radius: 15px;
   border: none;
   color: #FFFFFF;
+  font-family: Geomanist;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
 
 .m-button--primary {
@@ -785,18 +799,18 @@ body, html {
 }
 
 .m-button--large {
-  width: 132px;
-  height: 43px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .m-button--medium {
-  width: 112px;
-  height: 43px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .m-button--small {
-  width: 92px;
-  height: 43px;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .m-button--secondary {
@@ -889,5 +903,15 @@ body, html {
 
 .m-button--sucess:focus {
   border: 0.5px solid #5CDB9E;
+}
+
+.a-input {
+  border: none;
+  border-bottom: 2px solid #DF6588;
+}
+
+.a-input:focus {
+  outline: none;
+  border-bottom: 2px solid #7336FE;
 }
 /*# sourceMappingURL=style.css.map */

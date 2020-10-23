@@ -1,0 +1,17 @@
+.a-input{
+    border: none;
+    border-bottom: 2px solid $primtwo;
+
+    &:focus{
+        outline: none;
+        border-bottom: 2px solid $primone;
+    }
+    &:invalid{
+        outline: none;
+        border-bottom: 2px solid $destuctive;
+    }
+    &:valid{
+        outline: none;
+        border-bottom: 2px solid $success;
+    }
+}
