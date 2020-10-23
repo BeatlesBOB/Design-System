@@ -80,7 +80,7 @@
     background-clip: padding-box; /* !importanté */
     border-radius: 100px;
     span{
-        background: -webkit-linear-gradient(#eee, #333);
+        background: $gradientprimaryfont;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -108,7 +108,11 @@
     }
     &:hover::after{
         opacity: 1;
-        color: white;
+        
+    }
+    &:hover span{
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: white;
     }
     &:active{
         
@@ -157,4 +161,3 @@
 
     }
 }
-
