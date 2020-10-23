@@ -6,12 +6,12 @@
         outline: none;
         border-bottom: 2px solid $primone;
     }
-    &:invalid{
-        outline: none;
-        border-bottom: 2px solid $destuctive;
-    }
-    &:valid{
-        outline: none;
-        border-bottom: 2px solid $success;
-    }
+}
+.his-validated{
+    outline: none;
+    border-bottom: 2px solid $sucess;
+}
+.his-invalidated{
+    outline: none;
+    border-bottom: 2px solid $destructive;
 }

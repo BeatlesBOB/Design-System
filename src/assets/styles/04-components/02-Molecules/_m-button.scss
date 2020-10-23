@@ -1,4 +1,6 @@
 .m-button{
+    @include flex-center();
+
     border-radius: 15px;
     border: none;
     color: $white;
