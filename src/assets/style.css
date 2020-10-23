@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .z-index-1 {
   z-index: 1;
 }
@@ -853,8 +852,6 @@ body, html {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-clip: padding-box;
-  /* !importanté */
   border-radius: 100px;
   background: white;
 }
@@ -874,9 +871,7 @@ body, html {
   left: 0;
   z-index: -1;
   margin: -3px;
-  /* !importanté */
   border-radius: inherit;
-  /* !importanté */
   background: -webkit-gradient(linear, left top, left bottom, from(#4666DA), to(#D53DD8));
   background: linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
 }

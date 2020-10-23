@@ -78,7 +78,6 @@
 .m-button--secondary{
     position: relative;
     box-sizing: border-box;
-    background-clip: padding-box; /* !importanté */
     border-radius: 100px;
     background: white;
     span{
@@ -91,8 +90,8 @@
       position: absolute;
       top: 0; right: 0; bottom: 0; left: 0;
       z-index: -1;
-      margin: -3px; /* !importanté */
-      border-radius: inherit; /* !importanté */
+      margin: -3px;
+      border-radius: inherit;
       background: $gradientprimary;
     }
     &::after{
