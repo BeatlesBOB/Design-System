@@ -3,10 +3,15 @@ $primtwo : #DF6588;
 $secone : #FCDA68;
 $sectwo : #22BBEE;
 $secthree : #FE86AA;
-$destructive: #FF2362;
-$sucess: #5CDB9E;
+
 $white: #FFFFFF;
-$black: #000000;
 
+$gradientprimary:linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
+$gradientprimaryhover:linear-gradient(180deg, #7337BE 0%, #961B8A 100%);
 
+$gradientdestructive: linear-gradient(180deg, #F12733 0%, #EE3C7C 100%);
+$gradientdestructivehover: linear-gradient(180deg, #C51D1D 0%, #B81965 100%);
+
+$gradientsucess:linear-gradient(180deg, #63E4D2 0%, #30F2C4 100%);
+$gradientsucesshover: linear-gradient(180deg, #22F2B4 0%, #1FBC96 100%);
 

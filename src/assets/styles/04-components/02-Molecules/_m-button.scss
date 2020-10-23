@@ -1,128 +1,30 @@
 .m-button{
-    @include flex-center();
-
-    border-radius: 15px;
+    display: inline-block;
+    border-radius: 100px;
     border: none;
     color: $white;
     font-family: $fontfm;
     font-style: normal;
     font-weight: bold;
-
-    text-align: center;
+    letter-spacing: 0.1em;
     white-space: nowrap;
-    vertical-align: middle;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 100px;
     user-select: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.m-button--primary{
-    background: $primone;
-    
-    &.disabled{
-        opacity: 0.3;
-        border: 0.5px solid $primone;
-    }
-    &:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    &:active{
-        opacity: 0.6;
-        border: 0.5px solid rgba(0, 0, 0, 0.5);
-    }
-    &:focus{
-        border: 0.5px solid $primone;
-    }
-}
 .m-button--large{
-    // max-width: 132px;
-    // max-height: 43px;
-    font-size: 20px;
-    line-height: 20px;
-}
-
-.m-button--medium{
-    font-size: 18px;
-    line-height: 18px;
-    // font-size: 18px;
-    // line-height: 18px;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding: .5rem 1rem;
 }
 
 .m-button--small{
-    font-size: 16px;
-    line-height: 16px;
-    // max-width: 92px;
-    // max-height: 43px;
-}
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: .25rem .5rem;
 
-.m-button--secondary{
-    background: $secthree    ;
-    &.disabled{
-        opacity: 0.3;
-        border: 0.5px solid $secthree;
-    }
-    &:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    &:active{
-        opacity: 0.6;
-        border: 0.5px solid rgba(0, 0, 0, 0.5);
-    }
-    &:focus{
-        border: 0.5px solid $secthree;
-    }
 }
-
-.m-button--secondary{
-    background: $secthree    ;
-    &.disabled{
-        opacity: 0.3;
-        border: 0.5px solid $secthree;
-    }
-    &:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    &:active{
-        opacity: 0.6;
-        border: 0.5px solid rgba(0, 0, 0, 0.5);
-    }
-    &:focus{
-        border: 0.5px solid $secthree;
-    }
-}
-
-.m-button--destructive{
-    background: $destructive    ;
-    &.disabled{
-        opacity: 0.3;
-        border: 0.5px solid $destructive;
-    }
-    &:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    &:active{
-        opacity: 0.6;
-        border: 0.5px solid rgba(0, 0, 0, 0.5);
-    }
-    &:focus{
-        border: 0.5px solid $destructive;
-    }
-}
-
-.m-button--sucess{
-    background: $sucess;
-    &.disabled{
-        opacity: 0.3;
-        border: 0.5px solid $sucess;
-    }
-    &:hover{
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-    &:active{
-        opacity: 0.6;
-        border: 0.5px solid rgba(0, 0, 0, 0.5);
-    }
-    &:focus{
-        border: 0.5px solid $sucess;
-    }
-}
-
