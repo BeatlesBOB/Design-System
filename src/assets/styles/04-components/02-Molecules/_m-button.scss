@@ -12,7 +12,7 @@
     padding: 1rem 2.625rem;
     font-size: 14px;
     line-height: 1.42857143;
-    border-radius: 100px;
+    border-radius: 28.5px;
     user-select: none;
 }
 
@@ -60,14 +60,15 @@
     }
     &:active{
         background: $gradientprimaryhover;
+        border: 3px solid rgba(0, 0, 0, 0.1);
         box-shadow: $box-shadow;
     }
     &:focus{
-        background: $gradientprimaryhover;
         box-shadow: $box-shadow;
     }
-    &:disabled{
-
+    &.disabled{
+        cursor: not-allowed;
+        background: $gradientprimarydisabled;
     }
 }
 
@@ -79,6 +80,7 @@
     box-sizing: border-box;
     background-clip: padding-box; /* !importanté */
     border-radius: 100px;
+    background: white;
     span{
         background: $gradientprimaryfont;
         -webkit-background-clip: text;
@@ -108,7 +110,6 @@
     }
     &:hover::after{
         opacity: 1;
-        
     }
     &:hover span{
         -webkit-background-clip: text;
@@ -123,20 +124,38 @@
     &:disabled{
 
     }
-      
 }
 
-.m-button--sucess{
-    background-color: $gradientsucess;
-    &:hover{
-        background-color: $gradientsucesshover;
+.m-button--destructive{
+    background-color: #ccc;
+    background-image: $gradientdestructive;
+    transition: 10s ease-in;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: $gradientdestructivehover;
+        transition: opacity 0.5s ease-out;
+        opacity: 0;
+        border-radius: 100px;
+        z-index: 2;
+    }
+    &:hover::after{
+        opacity: 1;
+        color: white;
     }
     &:active{
-        background-color: $gradientsucesshover;
+        background: $gradientdestructivehover;
         box-shadow: $box-shadow;
     }
     &:focus{
-        background-color: $gradientsucesshover;
+        background: $gradientdestructivehover;
         box-shadow: $box-shadow;
     }
     &:disabled{
@@ -144,17 +163,36 @@
     }
 }
 
-.m-button--destructive{
-    background-color: $gradientdestructive;
-    &:hover{
-        background-color: $gradientdestructivehover;
+.m-button--sucess{
+    background-color: #ccc;
+    background-image: $gradientsucess;
+    transition: 10s ease-in;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: $gradientsucesshover;
+        transition: opacity 0.5s ease-out;
+        opacity: 0;
+        border-radius: 100px;
+        z-index: 2;
+    }
+    &:hover::after{
+        opacity: 1;
+        color: white;
     }
     &:active{
-        background-color: $gradientdestructivehover;
+        background: $gradientsucesshover;
         box-shadow: $box-shadow;
     }
     &:focus{
-        background-color: $gradientdestructivehover;
+        background: $gradientsucesshover;
         box-shadow: $box-shadow;
     }
     &:disabled{

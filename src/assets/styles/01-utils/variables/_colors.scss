@@ -12,6 +12,7 @@ $black:#000;
 $gradientprimary: linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
 $gradientprimaryhover:linear-gradient(180deg, #7337BE 0%, #961B8A 100%);
 $gradientprimaryfont:-webkit-linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
+$gradientprimarydisabled: linear-gradient(0deg, rgba(137, 129, 129, 0.6), rgba(137, 129, 129, 0.6)), linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
 
 $gradientdestructive: linear-gradient(180deg, #F12733 0%, #EE3C7C 100%);
 $gradientdestructivehover: linear-gradient(180deg, #C51D1D 0%, #B81965 100%);
