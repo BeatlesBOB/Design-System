@@ -2,10 +2,20 @@
     border-radius: 15px;
     border: none;
     color: $white;
+    font-family: $fontfm;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .m-button--primary{
     background: $primone;
+    
     &.disabled{
         opacity: 0.3;
         border: 0.5px solid $primone;
@@ -22,18 +32,24 @@
     }
 }
 .m-button--large{
-    width: 132px;
-    height: 43px;
+    // max-width: 132px;
+    // max-height: 43px;
+    font-size: 20px;
+    line-height: 20px;
 }
 
 .m-button--medium{
-    width: 112px;
-    height: 43px;
+    font-size: 18px;
+    line-height: 18px;
+    // font-size: 18px;
+    // line-height: 18px;
 }
 
 .m-button--small{
-    width: 92px;
-    height: 43px;
+    font-size: 16px;
+    line-height: 16px;
+    // max-width: 92px;
+    // max-height: 43px;
 }
 
 .m-button--secondary{
