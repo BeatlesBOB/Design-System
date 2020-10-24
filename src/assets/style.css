@@ -6,7 +6,7 @@
   z-index: 2;
 }
 
-.z-index-3 {
+.z-index-3, .m-button span {
   z-index: 3;
 }
 
@@ -2075,10 +2075,6 @@ body, html {
   font-style: italic;
 }
 
-.m-button span {
-  z-index: 3;
-}
-
 .m-button {
   display: inline-block;
   border-radius: 100px;
@@ -2414,6 +2410,8 @@ body, html {
 
 .a-text-topright {
   position: absolute;
+  letter-spacing: 5px;
+  text-transform: uppercase;
   top: 16px;
   right: 16px;
 }

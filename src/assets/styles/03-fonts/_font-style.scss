@@ -74,5 +74,5 @@
 }
 
 .m-button span{
-    z-index: 3;
+    @extend .z-index-3;
 }
