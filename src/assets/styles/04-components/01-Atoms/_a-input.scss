@@ -10,10 +10,44 @@
     }
 }
 .his-validated{
-    outline: none;
-    border-bottom: 2px solid $sucess;
-}
-.his-invalidated{
+    background: url("././icons/sucess.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1em;
     outline: none;
     border-bottom: 2px solid $destructive;
+}
+.his-invalidated{
+    background: url("././icons/error.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1em;
+    outline: none;
+    border-bottom: 2px solid $destructive;
+    &:focus{
+        background: none;
+    }
+}
+.his-validated{
+    background: url("././icons/sucess.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1em;
+    outline: none;
+    border-bottom: 2px solid $destructive;
+    &:focus{
+        background: none;
+    }
+}
+.his-disabled{
+    background: url("././icons/disabled.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1em;
+    outline: none;
+    border-bottom: 2px solid $destructive;
+    transition: all 2s ease-in;
+    &:focus{
+        background: none;
+    }
 }

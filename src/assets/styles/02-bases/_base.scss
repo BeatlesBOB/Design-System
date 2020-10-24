@@ -31,3 +31,7 @@ body,html {
   display: flex;
   flex-direction: row;
 }
+
+.text-error{
+  color: $destructive;
+}

@@ -19,15 +19,16 @@
               <div class=" mt-154 ">
                 <p class="text-5x text--black">Sign in</p>
               </div>
-            <form class="ml-96">
+            <form class="ml-96" id="signinForm">
               <div class="pb-32">
-                <label class="mb-16 text-18p text--regular">Email address</label>
-                <input type="email" class="a-input ">
+                <label for="email"class="mb-16 text-18p text--regular">Email address</label>
+                <input type="email" name="email"class="a-input ">
               </div>
               <div class="pb-16">
-                <label class="mb-16 text-18p text--regular">Password</label>
-                <input type="password" class="a-input ">
+                <label for="password"class="mb-16 text-18p text--regular">Password</label>
+                <input name="password"type="password" class="a-input">
               </div>
+              <div class="errorMessage"></div>
               <div class="mb-64">
                 <p class="text--light--italic text-12p">Not resgistered yet ? Sign up <a class="a-link" href="./signup.html">here</a></p>
               </div>

@@ -1920,6 +1920,10 @@ body, html {
           flex-direction: row;
 }
 
+.text-error {
+  color: #F12733;
+}
+
 .text-7x {
   font-size: 5.25rem;
 }
@@ -2408,13 +2412,53 @@ body, html {
 }
 
 .his-validated {
+  background: url("././icons/sucess.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1em;
   outline: none;
-  border-bottom: 2px solid #5CDB9E;
+  border-bottom: 2px solid #F12733;
 }
 
 .his-invalidated {
+  background: url("././icons/error.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1em;
   outline: none;
   border-bottom: 2px solid #F12733;
+}
+
+.his-invalidated:focus {
+  background: none;
+}
+
+.his-validated {
+  background: url("././icons/sucess.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1em;
+  outline: none;
+  border-bottom: 2px solid #F12733;
+}
+
+.his-validated:focus {
+  background: none;
+}
+
+.his-disabled {
+  background: url("././icons/disabled.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1em;
+  outline: none;
+  border-bottom: 2px solid #F12733;
+  -webkit-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+
+.his-disabled:focus {
+  background: none;
 }
 
 .a-google-icon {
