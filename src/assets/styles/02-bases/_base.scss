@@ -1,5 +1,4 @@
 body,html {
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -9,13 +8,22 @@ body,html {
 }
 
 .bg-illustration-signin{
-  background-image: url("./img/illustration.svg");
+  background-image: url("./img/illustration_signin.svg");
   background-position: top right ;
   background-repeat: no-repeat;
   background-size: cover; 
 }
 
+.bg-illustration-signup{
+  background-image: url("./img/illustration_signup.svg");
+  background-position: top right ;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 
+.vh-100{
+  height: 100vh;
+}
 .h-100{
   height: 100%;
 }
@@ -34,4 +42,18 @@ body,html {
 
 .text-error{
   color: $destructive;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.d-flex{
+  display: flex;
+}
+.justify-content-center{
+  justify-content:center;
+}
+
+.flex-column{
+  flex-direction: column;
 }

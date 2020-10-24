@@ -1,9 +1,8 @@
 .a-text-topright{
     @extend .text--bold;
-    @extend .text-18p;
-    position: absolute;
-    letter-spacing: 5px;
+    @extend .text-13;
+    display: flex;
     text-transform: uppercase;
-    top:16px;
-    right:16px;
+    letter-spacing: 0.1em;
+
 }

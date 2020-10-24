@@ -24,8 +24,15 @@ $(document).ready(function() {
         },
         invalidHandler: function(form){ 
          animateCSS('.a-input', 'shakeX');
-
+        }, 
+        submitHandler: function(form) {
+          event.preventDefault();
+          console.log("sucess")
+          form.querySelectorAll("input").forEach(function(el){
+            el.classList.add("his-validated");
+          });
         }
+      
     })
     
  });

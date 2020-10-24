@@ -5,52 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../src/assets/style.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
     <title>Sign In</title>
   </head>
   <body>
     <div class="row no-gutters">
-        <div class="col-12 col-lg-6">
-          <div class="bg-illustration-signin h-100" >
-          </div>
+      <div class="col-12 col-lg-6 vh-100">
+        <div class="bg-illustration-signin h-100"></div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="d-flex flex-row-reverse">
+          <div class="a-text-topright mr-19 mt-19">rodane</div>
         </div>
-        <div class="d-lg-none col-lg-6">
-          <div class="container">
-            <div class="a-text-topright">rodane</div>
-              <div class=" mt-154 ">
-                <p class="text-5x text--black">Sign in</p>
-              </div>
-            <form class="ml-96" id="signinForm">
-              <div class="pb-32">
-                <label for="email"class="mb-16 text-18p text--regular">Email address</label>
-                <input type="email" name="email"class="a-input ">
-              </div>
-              <div class="pb-16">
-                <label for="password"class="mb-16 text-18p text--regular">Password</label>
-                <input name="password"type="password" class="a-input">
-              </div>
-              <div class="errorMessage"></div>
-              <div class="mb-64">
-                <p class="text--light--italic text-12p">Not resgistered yet ? Sign up <a class="a-link" href="./signup.html">here</a></p>
-              </div>
-              <div class="mb-96">
-                <button type="submit"class="m-button m-button--primary m-button--large"><span>Continue</span></button>
-              </div>
-              <div class="mb-48">
-                <p class="text--black text-5x">Or</p>
-              </div>
-              <div class="mb-40">
-                <button class="m-button m-button--large m-button--secondary"><span>Continue with Facebook</span></button>
-              </div>
-              <div class="mb-40">
-                <button class="m-button m-button--large m-button--secondary"><span>Continue with Google</span></button>
-              </div>
+        <div class="container">
+          <div class="mt-114">
+            <p class="text-24 text--black mt-0">Sign in</p>
+          </div>
+          <form id="signinForm" class="pr-95 mt-95">
+            <div class="pb-19">
+              <input type="email" name="email"class="a-input" placeholder="Email address">
+            </div>
+            <div class="pt-19">
+              <input name="password"type="password" class="a-input" placeholder="Password">
+            </div>
+            <div class="errorMessage"></div>
+            <div class="mt-19">
+              <p class="text--light--italic text-1">Not resgistered yet ? Sign up <a class="a-link" href="./signup.html">here</a></p>
+            </div>
+            <div class="mt-57 d-flex justify-content-center">
+              <button type="submit"class="m-button m-button--primary m-button--large mt-0 mb-0"><span>Continue</span></button>
+            </div>
+            <div class="mt-57">
+              <p class="text--black text-24 mt-0 mb-0">Or</p>
+            </div>
+            <div class="mt-38 d-flex justify-content-center">
+              <button class="m-button m-button--large m-button--secondary mt-0 mb-0"><span>Continue with Facebook</span></button>
+            </div>
+            <div class="mt-19 d-flex justify-content-center">
+              <button class="m-button m-button--large m-button--secondary mt-0 mb-0"><span>Continue with Google</span></button>
             </div>
           </form>
-
         </div>
       </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
-    <script src="../src/assets/js/form.js"></script>
+    <script src="../src/assets/js/signin.js"></script>
   </body>
 </html>

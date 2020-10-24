@@ -1,6 +1,7 @@
 .a-input{
-    @extend .text-12p;
+    @extend .text-6;
     @extend .text--regular;
+    width: 100%;
     border: none;
     border-bottom: 2px solid $black;
 
@@ -23,6 +24,7 @@
     background-position: right;
     background-size: 1em;
     outline: none;
+    color: $destructive;
     border-bottom: 2px solid $destructive;
     &:focus{
         background: none;
@@ -34,7 +36,8 @@
     background-position: right;
     background-size: 1em;
     outline: none;
-    border-bottom: 2px solid $destructive;
+    color: $sucess;
+    border-bottom: 2px solid $sucess;
     &:focus{
         background: none;
     }
