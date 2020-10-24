@@ -5,7 +5,6 @@
     display: inline-block;
     border-radius: 100px;
     border: none;
-    color: $white;
     font-family: $fontfm;
     font-style: normal;
     font-weight: bold;
@@ -39,6 +38,8 @@
 
 
 .m-button--primary{
+    color: $white;
+
     background-color: #ccc;
     background-image: $gradientprimary;
     display: inline-block;
@@ -76,6 +77,8 @@
 }
 
 .m-button--secondary{
+    color: $white;
+
     position: relative;
     box-sizing: border-box;
     border-radius: 100px;
@@ -164,6 +167,8 @@
 }
 
 .m-button--destructive{
+    color: $white;
+
     background-color: #ccc;
     background-image: $gradientdestructive;
     display: inline-block;
@@ -201,6 +206,8 @@
 }
 
 .m-button--sucess{
+    color: $white;
+
     background-color: #ccc;
     background-image: $gradientsucess;
     display: inline-block;
