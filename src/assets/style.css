@@ -1934,7 +1934,7 @@ body, html {
   font-size: 2.25rem;
 }
 
-.text-18p {
+.text-18p, .a-text-topright {
   font-size: 1.875rem;
 }
 
@@ -2045,7 +2045,7 @@ body, html {
   font-style: italic;
 }
 
-.text--bold {
+.text--bold, .a-text-topright {
   font-family: Geomanist, sans-serif;
   font-weight: 700;
 }

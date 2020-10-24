@@ -1,4 +1,6 @@
 .a-text-topright{
+    @extend .text--bold;
+    @extend .text-18p;
     position: absolute;
     letter-spacing: 5px;
     text-transform: uppercase;
