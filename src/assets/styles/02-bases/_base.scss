@@ -3,3 +3,23 @@ body,html {
   margin: 0;
   padding: 0;
 }
+
+.bg-primary{
+  background-color: $primone;
+}
+
+.h-100{
+  height: 100vh;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.position-absolute{
+  position:absolute;
+}
+
+.img-100{
+  height: 100%;
+}
