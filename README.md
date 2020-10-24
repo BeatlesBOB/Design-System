@@ -1,6 +1,6 @@
 # Design-System
 
-It's a small school project in design system where learned the atomic design and create components en the design part.
+It's a small school project in design system where learned the atomic design and how to create components in the design part.
 
 ## Authors 
 
