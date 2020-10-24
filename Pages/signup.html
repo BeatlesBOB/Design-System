@@ -22,24 +22,30 @@
       <form id="signinForm" class="pr-95 mt-57">
         <div class="row">
           <div class="col-6">
-            <input type="email" name="email"class="a-input" placeholder="Firstname">
+            <input type="text" name="Firstname"class="a-input" placeholder="Firstname">
           </div>
           <div class="col-6">
-            <input name="password"type="password" class="a-input" placeholder="Lastname">
+            <input name="Lastname"type="text" class="a-input" placeholder="Lastname">
           </div>
           <div class="col-12">
-            <input name="password"type="password" class="a-input pt-19" placeholder="Email Adress">
+            <input name="email"type="email" class="a-input pt-19" placeholder="Email Adress">
           </div>
           <div class="col-12">
-            <input name="password"type="password" class="a-input pt-19" placeholder="Password">
+            <input name="password" type="password" class="a-input pt-19" placeholder="Password">
           </div>
           <div class="col-12">
-            <input name="password"type="password" class="a-input pt-19" placeholder="Confirm password">
+            <input name="Confpassword" type="password" class="a-input pt-19" placeholder="Confirm password">
           </div>
-          <div class="errorMessage"></div>
-          <p class="text--light--italic text-1 mt-19">Not resgistered yet ? Sign up <a class="a-link" href="./signup.html">here</a></p>
-          <div class="mt-57 d-flex justify-content-center">
-            <button type="submit"class="m-button m-button--primary m-button--large mt-0 mb-0"><span>Continue</span></button>
+          <div class="col-12">
+            <div class="errorMessage"></div>
+          </div>
+          <div class="col-12">
+            <p class="text--light--italic text-1 mt-19">Not resgistered yet ? Sign up <a class="a-link" href="./signup.html">here</a></p>
+          </div>
+          <div class="col-12 mt-57">
+            <div class=" d-flex justify-content-center">
+              <button type="submit"class="m-button m-button--primary m-button--large mt-0 mb-0"><span>Continue</span></button>
+            </div>
           </div>
         </div>
       </form>
@@ -54,5 +60,7 @@
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js" integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg==" crossorigin="anonymous"></script>
+  <script src="../src/assets/js/signup.js"></script>
+
 </body>
 </html>
