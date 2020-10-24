@@ -1910,6 +1910,16 @@ body, html {
   position: absolute;
 }
 
+.flex-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 .text-7x {
   font-size: 5.25rem;
 }
@@ -1930,7 +1940,7 @@ body, html {
   font-size: 2.25rem;
 }
 
-.text-24p, .a-input {
+.text-24p {
   font-size: 2.25rem;
 }
 
@@ -1938,7 +1948,7 @@ body, html {
   font-size: 1.875rem;
 }
 
-.text-12p {
+.text-12p, .a-input {
   font-size: 1.5rem;
 }
 
@@ -2096,6 +2106,7 @@ body, html {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  margin: 5px;
 }
 
 .m-button span {

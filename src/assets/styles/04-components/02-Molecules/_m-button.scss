@@ -1,7 +1,6 @@
 .m-button{
     @extend .text--black;
     @extend .text-4x;
-
     display: inline-block;
     border-radius: 100px;
     border: none;
@@ -16,6 +15,7 @@
     line-height: 1.42857143;
     border-radius: 28.5px;
     user-select: none;
+    margin: 5px;
 }
 
 .m-button span{
