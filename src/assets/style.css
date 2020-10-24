@@ -1919,7 +1919,7 @@ body, html {
   font-size: 3.75rem;
 }
 
-.text-4x {
+.text-4x, .m-button {
   font-size: 3rem;
 }
 
@@ -1927,7 +1927,7 @@ body, html {
   font-size: 2.25rem;
 }
 
-.text-24p {
+.text-24p, .a-input {
   font-size: 2.25rem;
 }
 
@@ -2020,7 +2020,7 @@ body, html {
   src: url("../../fonts/Geomanist-Ultra-Italic.otf");
 }
 
-.text--regular {
+.text--regular, .a-input {
   font-family: Geomanist, sans-serif;
   font-weight: 400;
 }
@@ -2031,7 +2031,7 @@ body, html {
   font-weight: 400;
 }
 
-.text--black {
+.text--black, .m-button {
   font-family: Geomanist, sans-serif;
   font-weight: 800;
 }
@@ -2382,7 +2382,7 @@ body, html {
 
 .a-input {
   border: none;
-  border-bottom: 2px solid #DF6588;
+  border-bottom: 2px solid #000;
 }
 
 .a-input:focus {

@@ -1,6 +1,8 @@
 .a-input{
+    @extend .text-24p;
+    @extend .text--regular;
     border: none;
-    border-bottom: 2px solid $primtwo;
+    border-bottom: 2px solid $black;
 
     &:focus{
         outline: none;

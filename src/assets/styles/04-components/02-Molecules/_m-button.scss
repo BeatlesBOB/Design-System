@@ -1,4 +1,7 @@
 .m-button{
+    @extend .text--black;
+    @extend .text-4x;
+
     display: inline-block;
     border-radius: 100px;
     border: none;
