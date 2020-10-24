@@ -2411,4 +2411,10 @@ body, html {
   display: block;
   color: #000;
 }
+
+.a-text-topright {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
 /*# sourceMappingURL=style.css.map */
