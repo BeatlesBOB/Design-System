@@ -1887,14 +1887,19 @@ body, html {
   padding: 0;
 }
 
+.bg-primary {
+  background-color: #7336FE;
+}
+
 .bg-illustration-signin {
   background-image: url("./img/illustration.svg");
-  background-position: left;
+  background-position: top right;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .h-100 {
-  height: 100vh;
+  height: 100%;
 }
 
 .position-relative {
