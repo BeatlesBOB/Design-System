@@ -488,6 +488,7 @@ body, html {
 @font-face {
   font-family: Geomanist;
   font-weight: 200;
+  font-style: italic;
   src: url("fonts/Geomanist-Light-Italic.otf");
 }
 
