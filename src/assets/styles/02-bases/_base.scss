@@ -3,11 +3,29 @@ body,html {
   padding: 0;
 }
 
-.bg-primary{
-  background-color: $primone;
+
+
+.bg-gradientprimary{
+  background: $gradientprimary;
+  
 }
 
-
+.bg-signup{
+  background-image: url("./img/illustration_signup.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+.bg-signin{
+  background-image: url("./img/illustration_signin.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
 .vh-100{
   height: 100vh;
 }

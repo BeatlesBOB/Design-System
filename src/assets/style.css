@@ -283,8 +283,27 @@ body, html {
   padding: 0;
 }
 
-.bg-primary {
-  background-color: #7336FE;
+.bg-gradientprimary {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4666DA), to(#D53DD8));
+  background: linear-gradient(180deg, #4666DA 0%, #D53DD8 100%);
+}
+
+.bg-signup {
+  background-image: url("./img/illustration_signup.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.bg-signin {
+  background-image: url("./img/illustration_signin.svg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
 }
 
 .vh-100 {
