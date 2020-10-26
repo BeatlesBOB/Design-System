@@ -1,0 +1,4 @@
+.a-container{
+    text-align: center;
+    @include flex-center();
+}
