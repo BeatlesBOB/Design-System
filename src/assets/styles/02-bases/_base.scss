@@ -42,3 +42,7 @@ body,html {
 .flex-column{
   flex-direction: column;
 }
+.img-fluid-height{
+  max-height: 100%;
+  width: auto;
+}
