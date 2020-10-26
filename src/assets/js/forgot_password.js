@@ -13,14 +13,19 @@ $(document).ready(function() {
          password: {
            required: true,
            minlength: 5
+         },
+         confirmPassword: {
+             required: true,
+             minlength: 5
          }
+
        },
         messages: {
             password: {
               required: "<p class='text-error text--light--italic text-0p'>Please provide a password\n<p>",
               minlength: "<p class='text-error text--light--italic text-0p'>Your password must be at least 5 characters long\n<p>"
             },
-            Confpassword:{
+            confirmPassword:{
                 required: "<p class='text-error text--light--italic text-0p'>Please provide a password\n<p>",
                 minlength: "<p class='text-error text--light--italic text-0p'>Your password must be identical to the previous one\n<p>"
             },
@@ -36,7 +41,8 @@ $(document).ready(function() {
             el.classList.add("his-validated");
           });
           window.location.replace("../Pages/signin.html");
-        }
+        },
+        
       
     })
     
