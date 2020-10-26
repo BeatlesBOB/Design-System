@@ -273,6 +273,11 @@
   padding: 0 !important;
 }
 
+.py-95 {
+  padding-left: 5.9375rem !important;
+  padding-right: 5.9375rem !important;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -332,6 +337,11 @@ body, html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.img-fluid-height {
+  max-height: 100%;
+  width: 100%;
 }
 
 .text-0, .m-button {

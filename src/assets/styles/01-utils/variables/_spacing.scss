@@ -212,3 +212,8 @@ $spacer : 1.1875rem;
 .m-0{
     padding: 0!important;
 }
+
+.py-95{
+    padding-left: $spacer*5!important;
+    padding-right: $spacer*5!important;
+}
