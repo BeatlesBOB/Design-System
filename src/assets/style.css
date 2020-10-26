@@ -334,11 +334,6 @@ body, html {
           flex-direction: column;
 }
 
-.img-fluid-height {
-  max-height: 100%;
-  width: auto;
-}
-
 .text-0, .m-button {
   font-size: 0.75rem;
 }
