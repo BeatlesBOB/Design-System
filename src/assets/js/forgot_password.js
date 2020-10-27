@@ -40,7 +40,7 @@ $(document).ready(function() {
           form.querySelectorAll("input").forEach(function(el){
             el.classList.add("his-validated");
           });
-          window.location.replace("../Pages/signin.html");
+          window.location.replace("../pages/signin.html");
         },
         
       
