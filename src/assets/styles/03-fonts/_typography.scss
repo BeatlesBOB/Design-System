@@ -1,9 +1,9 @@
-
-
 .text--regular{
-    font-family: $font, sans-serif;
+    @include base-style-text();
+    
+    // font-family: $font, sans-serif;
     font-weight: 400;
-    line-height: normal;
+    // line-height: normal;
 }
 .text--regular--italic{
     font-family: $font, sans-serif;
