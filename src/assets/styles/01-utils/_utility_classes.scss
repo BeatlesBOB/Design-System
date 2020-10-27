@@ -1,0 +1,269 @@
+.bg-gradientprimary{
+background: $gradientprimary;
+}
+
+.bg-signup{
+    @include background();
+    background-image: url("../../img/illustration_signup.svg");
+    background-position: top right;
+}
+
+.bg-signin{
+    @include background();
+    background-image: url("../../img/illustration_signin.svg");
+    background-position: bottom left;
+}
+
+.min-100vh{
+min-height: 100vh;
+}
+
+.position-relative{
+position: relative;
+}
+
+.position-absolute{
+position:absolute;
+}
+
+.text-error{
+color: $destructive;
+}
+
+.flex-row-reverse {
+flex-direction: row-reverse;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content:center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.img-fluid-height{
+    max-height: 100%;
+    width: 100%;
+}
+  
+
+
+/*
+    The spacer is the default variable of spacing between two elements
+
+    m - means margin
+    p - means padding
+    
+    t - means top for margin-top or padding-top
+    b - means bottom for margin-bottom or padding-bottom
+    l - means left for margin-left or padding-left
+    r - means right for margin-right or padding-right
+
+    y - means both top and bottom for margin and padding
+    x - means both left and right for margin and padding
+    
+*/
+
+//margin top
+
+.mt-0{
+    margin-top: $spacer*0;
+}
+.mt-19{
+    margin-top: $base-space-1;
+}
+.mt-38{
+    margin-top: $base-space-2;
+}
+.mt-57{
+    margin-top: $base-space-3;
+}
+.mt-76{
+    margin-top: $base-space-4;
+}
+.mt-95{
+    margin-top: $base-space-5;
+}
+.mt-114{
+    margin-top: $base-space-6;
+}
+//margin bottom
+
+.mb-0{
+    margin-bottom: $spacer*0;
+}
+.mb-19{
+    margin-bottom: $base-space-1;
+}
+.mb-38{
+    margin-bottom: $base-space-2;
+}
+.mb-57{
+    margin-bottom: $base-space-3;
+}
+.mb-76{
+    margin-bottom: $base-space-4;
+}
+.mb-95{
+    margin-bottom: $base-space-5;
+}
+.mb-114{
+    margin-bottom: $base-space-6;
+}
+
+//margin left
+
+.ml-0{
+    margin-left: $spacer*0;
+}
+.ml-19{
+    margin-left: $base-space-1;
+}
+.ml-38{
+    margin-left: $base-space-2;
+}
+.ml-57{
+    margin-left: $base-space-3;
+}
+.ml-76{
+    margin-left: $base-space-4;
+}
+.ml-95{
+    margin-left: $base-space-5;
+}
+.ml-114{
+    margin-left: $base-space-6;
+}
+
+//margin right
+
+.mr-0{
+    margin-right: $spacer*0;
+}
+.mr-19{
+    margin-right: $base-space-1;
+}
+.mr-38{
+    margin-right: $base-space-2;
+}
+.mr-57{
+    margin-right: $base-space-3;
+}
+.mr-76{
+    margin-right: $base-space-4;
+}
+.mr-95{
+    margin-right: $base-space-5;
+}
+.mr-114{
+    margin-right: $base-space-6;
+}
+
+
+//padding top
+.pt-0{
+    padding-top: $spacer*0;
+}
+.pt-19{
+    padding-top: $base-space-1;
+}
+.pt-38{
+    padding-top: $base-space-2;
+}
+.pt-57{
+    padding-top: $base-space-3;
+}
+.pt-76{
+    padding-top: $base-space-4;
+}
+.pt-95{
+    padding-top: $base-space-5;
+}
+.pt-114{
+    padding-top: $base-space-6;
+}
+//padding bottom
+
+.pb-0{
+    padding-bottom: $spacer*0;
+}
+.pb-19{
+    padding-bottom: $base-space-1;
+}
+.pb-38{
+    padding-bottom: $base-space-2;
+}
+.pb-57{
+    padding-bottom: $base-space-3;
+}
+.pb-76{
+    padding-bottom: $base-space-4;
+}
+.pb-95{
+    padding-bottom: $base-space-5;
+}
+.pb-114{
+    padding-bottom: $base-space-6;
+}
+
+//padding left
+
+.pl-0{
+    padding-left: $spacer*0;
+}
+.pl-19{
+    padding-left: $base-space-1;
+}
+.pl-38{
+    padding-left: $base-space-2;
+}
+.pl-57{
+    padding-left: $base-space-3;
+}
+.pl-76{
+    padding-left: $base-space-4;
+}
+.pl-95{
+    padding-left: $base-space-5;
+}
+.pl-114{
+    padding-left: $base-space-6;
+}
+
+//padding right
+
+.pr-0{
+    padding-right: $spacer*0;
+}
+.pr-19{
+    padding-right: $base-space-1;
+}
+.pr-38{
+    padding-right: $base-space-2;
+}
+.pr-57{
+    padding-right: $base-space-3;
+}
+.pr-76{
+    padding-right: $base-space-4;
+}
+.pr-95{
+    padding-right: $base-space-5;
+}
+.pr-114{
+    padding-right: $base-space-6;
+}
+
+.p-0{
+    padding: 0!important;
+}
+.m-0{
+    padding: 0!important;
+}
+
+.py-95{
+    padding-left: $base-space-5!important;
+    padding-right: $base-space-5!important;
+}

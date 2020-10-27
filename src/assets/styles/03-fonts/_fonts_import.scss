@@ -1,0 +1,20 @@
+$font : Geomanist;
+
+@font-face { font-family: $font; font-weight: 800; src: url('fonts/Geomanist-Black.otf');}
+@font-face { font-family: $font; font-weight: 800; font-style: italic; src: url('fonts/Geomanist-Black-Italic.otf');}
+
+@font-face { font-family: $font; font-weight: 700; src: url('fonts/Geomanist-Bold.otf');}
+@font-face { font-family: $font; font-weight: 700; src: url('fonts/Geomanist-Bold-Italic.otf');}
+
+@font-face { font-family: $font; font-weight: 200 ; src: url('fonts/Geomanist-Light.otf');}
+@font-face { font-family: $font; font-weight: 200 ; font-style: italic; src: url('fonts/Geomanist-Light-Italic.otf');}
+
+@font-face { font-family: $font; font-weight: 300 ; src: url('fonts/Geomanist-Medium.otf');}
+@font-face { font-family: $font; font-weight: 300 ; font-style: italic; src: url('fonts/Geomanist-Medium-Italic.otf');}
+
+@font-face { font-family: $font; font-weight: 400 ; src: url('fonts/Geomanist-Regular.otf');}
+@font-face { font-family: $font; font-weight: 400 ; font-style: italic; src: url('fonts/Geomanist-Regular-Italic.otf');}
+
+@font-face { font-family: $font; font-weight: 900 ; src: url('fonts/Geomanist-Ultra.otf');}
+@font-face { font-family: $font; font-weight: 900 ; font-style: italic; src: url('fonts/Geomanist-Ultra-Italic.otf');}
+

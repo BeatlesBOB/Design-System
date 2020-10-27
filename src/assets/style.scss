@@ -1,5 +1,6 @@
 // 01 - Utils
 // ---------------------
+@import "./styles/01-utils/utility_classes";
 @import "./styles/01-utils/mixins/mixins";
 @import "./styles/01-utils/variables/colors";
 @import "./styles/01-utils/variables/general";
@@ -15,7 +16,8 @@
 // ---------------------
 //
 @import "./styles/03-fonts/font-size";
-@import "./styles/03-fonts/font-style";
+@import "./styles/03-fonts/fonts_import";
+@import "./styles/03-fonts/typography";
 
 // 04 - Components
 // ---------------------

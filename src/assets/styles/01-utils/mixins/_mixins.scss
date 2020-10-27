@@ -8,5 +8,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+}
+
+@mixin background{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
 }
